@@ -1,0 +1,11 @@
+*.screenshot
+temp/
+sqlPatterns/
+talend.project
+poms/code/
+.settings
+code/routines/system/*
+poms/jobs/
+poms/pom.xml
+recycle_bin.index
+*.3.1.jar
