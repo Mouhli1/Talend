@@ -9,9 +9,9 @@
     <relativePath>../../../</relativePath>
   </parent>
   <groupId>org.example.git.job</groupId>
-  <artifactId>test</artifactId>
+  <artifactId>AWS_Snowflake</artifactId>
   <version>0.1.0</version>
-  <name>GIT test-0.1.0 (0.1,Job Designs)</name>
+  <name>GIT AWS_Snowflake-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <talend.job.type>Standard</talend.job.type>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
@@ -22,7 +22,7 @@
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <talend.job.stat>true</talend.job.stat>
     <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
-    <talend.job.id>_EGELwFE3Ee2QAfBVTDiRmQ</talend.job.id>
+    <talend.job.id>_mnNasFOfEe24aLiiI9GN7w</talend.job.id>
     <talend.job.version>0.1</talend.job.version>
     <talend.job.framework></talend.job.framework>
     <talend.routine.groupid>org.example.git.code</talend.routine.groupid>
@@ -38,8 +38,8 @@
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.job.name>test</talend.job.name>
-    <talend.job.finalName>test_0_1</talend.job.finalName>
+    <talend.job.name>AWS_Snowflake</talend.job.name>
+    <talend.job.finalName>aws_snowflake_0_1</talend.job.finalName>
   </properties>
   <dependencies>
     <dependency>
@@ -68,19 +68,14 @@
       <version>2.12.1</version>
     </dependency>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>mysql-connector-java-5.1.30-bin</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
       <version>1.7.25</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>talend_file_enhanced_20070724</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>talendcsv</artifactId>
-      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.git.code</groupId>
